@@ -2,10 +2,7 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    screens: {
-      mobile: "375px",
-      desktop: "1440px",
-    },
+    screens: {},
     extend: {
       colors: {
         darkBlue: "hsl(218, 44%, 22%)",
