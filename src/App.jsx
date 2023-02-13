@@ -5,6 +5,7 @@ function App() {
         <img
           src="/images/image-qr-code.png"
           className="max-w-full h-auto rounded-xl"
+          alt="image-qr-code.png"
         />
         <p className="font-bold text-2xl text-darkBlue">
           Improve your front-end skills by building projects
