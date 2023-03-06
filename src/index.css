@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: "Outfit", sans-serif;
+@font-face {
+  font-family: Hanken Grotesk;
+  font-weight: 800;
+  src: url("../public/results-summary-component-main/assets/fonts/static/HankenGrotesk-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: Hanken Grotesk;
+  font-weight: 700;
+  src: url("../public/results-summary-component-main/assets/fonts/static/HankenGrotesk-Bold.ttf");
+}
+
+@font-face {
+  font-family: Hanken Grotesk;
+  font-weight: 500;
+  src: url("../public/results-summary-component-main/assets/fonts/static/HankenGrotesk-Medium.ttf");
 }
